@@ -18,7 +18,7 @@ description TEXT,
 price_code VARCHAR(255),
 price NUMERIC(15, 2) NOT NULL,
 stock INTEGER,
-warranty_period INTEGER
+warranty_period INTEGER,
 category_id INTEGER REFERENCES categories(id) ON DELETE SET NULL
 ```
 
